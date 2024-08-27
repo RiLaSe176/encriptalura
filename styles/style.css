@@ -74,7 +74,7 @@ font-size: 18px;
     margin-top: 20px;
     padding-left: 20px;
     position: absolute;
-    background-image: url('./assets/Muñeco.png');
+    background-image: url('../assets/Muñeco.png');
     background-repeat: no-repeat;
     padding-bottom: 220px;
     
@@ -130,7 +130,7 @@ font-size: 18px;
     }
     .textarea1{
         width: 80%;
-        margin-left: 2%
+        margin-left: 2%;
     }
 
     .textarea2{
