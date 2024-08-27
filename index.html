@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/Vector.png" alt="logo A" class="logo">
+    </header>
+    <main class="cuerpo">
+        <section class="cuerpo1">
+            <textarea class="textarea1" cols="30" rows="10" placeholder="Ingrese el Texto Aquí"></textarea>
+            <div>
+                <h1 class="Informacion">Solo letras minúsculas y sin acentos</h1>
+            </div>
+            <div class="botones1">
+            <button class="Encript" onclick="encriptartexto()">Encriptar</button>
+            <button class="Desencript" onclick="desencriptartexto()">Desencriptar</button>
+        </div>
+        </section>
+        <section class="boton2">
+            <textarea class="textarea2" id="textarea2" cols="30" rows="10"></textarea>
+                <button class="Copiar" id="Copiar">Copiar</button>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>

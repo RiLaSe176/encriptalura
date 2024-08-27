@@ -1,0 +1,144 @@
+*{
+    background-color: #E5E5E5;
+    font-family: 'Inter';
+    font-weight:400;
+    font-size:32px;
+    line-height: 150%;
+}
+
+
+.logo{
+    padding:8px;
+    margin-left:8px;
+    width: 3%;
+}
+
+.cuerpo{
+    display:flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.textarea1{
+    border:none;
+    color:#00008B;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+:placeholder-shown{
+    color:#00008B;
+}
+.textarea1:focus{
+    outline:none;
+}
+
+.Informacion{
+color: gray;
+font-size: 18px;
+}
+
+.botones1{
+    display: flex;
+
+}
+.Encript{
+    background-color: #00008B;
+    border: 1px solid #00008B;
+    border-radius: 24px;
+    color: white;
+    cursor:pointer;
+    height:67px;
+    width: 336px;
+    font-size: 18px;
+
+}
+
+.Desencript{
+    background-color: #D8DFE8;
+    border:1px solid #00008B;
+    border-radius: 24px;
+    color: #00008B;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 20px;
+    width:336px;
+    font-size: 18px;
+}
+
+.textarea2{
+    background-color: white;
+    border:none;
+    border-radius: 24px;
+    color: #00008B;
+    margin-left: 80px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+    background-image: url('/assets/Muñeco.png');
+    background-repeat: no-repeat;
+    padding-bottom: 220px;
+    
+}
+.textarea2:focus{
+    outline:none;
+    margin-top: 20px;
+}
+
+.Copiar{
+    border-color: #00008B;
+    border-radius: 24px;
+    color: #00008B;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 640px;
+    position:sticky;
+    width: 336px;
+    font-size: 18px;
+}
+
+/* MEDIA QUERYS */
+
+@media (max-width: 1200px) {
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botones1{
+        width: 15rem;
+    }
+
+    .textarea1{
+        margin-top: 3rem;
+        width: 10rem;
+    }
+
+    .textarea2{
+        margin-right: 700px;
+        width: 70%;
+    }
+    .Copiar{
+        margin-right: 200px;
+    }
+    
+}
+
+@media (max-width: 426px) {
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .textarea1{
+        width: 80%;
+        margin-left: 2%
+    }
+
+    .textarea2{
+        margin-top: 2rem;
+        margin-right: 700px;
+        max-width: 25%;
+        width: 40%;
+    }
+    
+}
+
